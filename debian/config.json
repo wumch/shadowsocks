@@ -1,9 +1,9 @@
 {
-    "server":"my_server_ip",
-    "server_port":8388,
+    "server":"127.0.0.1",
+    "server_port":8080,
     "local_address": "127.0.0.1",
-    "local_port":1080,
-    "password":"mypassword",
+    "local_port":9527,
+    "password":"&*UYVDGHI*(*DG:Lfdfu3&D7",
     "timeout":300,
     "method":"aes-256-cfb",
     "fast_open": false,

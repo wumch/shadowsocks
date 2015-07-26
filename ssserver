@@ -1,0 +1,10 @@
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'shadowsocks==2.6.8','console_scripts','ssserver'
+__requires__ = 'shadowsocks==2.6.8'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('shadowsocks==2.6.8', 'console_scripts', 'ssserver')()
+    )
